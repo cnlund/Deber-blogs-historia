@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+    max-height: 100vh;
+}
+.encabezado{
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+    margin-top: -5vh;
+    margin-bottom: -8vh;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content:space-between;
+}
+.introduccion{
+    margin-left: 5vh;
+    margin-right: 5vh;
+    text-align:justify;
+    font-size: 4vh;
+    margin-bottom: -1vh;
+}
+.esebas{
+    display: flex;
+}
+.tsebas{
+    margin-left: 2vh;
+    border: 0.5vh solid black;
+    padding-left: 1vh;
+    font-size: 3vh;
+    padding-bottom: 1vh;
+}
+.psebas{
+    margin-left: 2vh;
+}
+.enico{
+    display: flex;
+}
+.tnico{
+    margin-left: 2vh;
+    border: 0.5vh solid black;
+    padding-left: 1vh;
+    font-size: 3vh;
+}
+.pnico{
+    margin-left: 2vh;
+}
+.esami{
+    display: flex;
+}
+.tsami{
+    margin-left: 2vh;
+    border: 0.5vh solid black;
+    padding-left: 1vh;
+    font-size: 3vh;
+}
+.psami{
+    margin-left: 2vh;
+}
+.eisra{
+    display: flex;
+}
+.tisra{
+    margin-left: 2vh;
+    border: 0.5vh solid black;
+    padding-left: 1vh;
+    font-size: 3vh;
+}
+.pisra{
+    margin-left: 2vh;
+}
+.perfil{
+    height: 15vh;
+    border-radius: 50%;
+}
+.final{
+    position: fixed;
+    margin-top: 45%;
+    margin-left: 50%;
+}
+button:hover, #submit:hover{
+    outline: none;
+    cursor: pointer;
+    transition:0.5s ease;
+}

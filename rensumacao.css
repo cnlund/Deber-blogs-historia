@@ -1,0 +1,18 @@
+body{
+    background-color: burlywood;
+    white-space: pre-wrap;
+}
+.title{
+    text-align: center;
+    margin-bottom: -5vh;
+    margin-top: -5vh
+}
+.ingredientes{
+    border-bottom: 1px solid black;
+    margin-bottom: -5vh;
+}
+button:hover, #submit:hover{
+    outline: none;
+    cursor: pointer;
+    transition:0.5s ease;
+}
